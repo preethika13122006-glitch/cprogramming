@@ -1,0 +1,77 @@
+#include<stdio.h>
+void myfunction(float n1,float n2)
+{
+    printf("Addition:%.2f\n",n1+n2);
+    printf("Subraction:%.2f\n",n1-n2);
+    printf("Multiplication:%.2f\n",n1*n2);
+    printf("Division:%.2f\n",n1/n2);
+}
+int main()
+{
+   myfunction(2.00,10.00);
+   return 0;
+    
+}
+
+
+output:
+Addition:12.00
+Subraction:-8.00
+Multiplication:20.00
+Division:0.20
+
+
+
+#include <stdio.h>
+
+int add(int a, int b)
+{
+    return a + b;
+}
+
+int sub(int a, int b)
+{
+    return a - b;
+}
+
+int mul(int a, int b)
+{
+    return a * b;
+}
+
+float div(int a, int b)
+{
+    return (float)a / b;
+}
+
+int main()
+{
+    int x, y;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+
+    printf("Addition = %d\n", add(x, y));
+    printf("Subtraction = %d\n", sub(x, y));
+    printf("Multiplication = %d\n", mul(x, y));
+
+    if(y != 0)
+        printf("Division = %.2f\n", div(x, y));
+    else
+        printf("Division by zero not allowed\n");
+
+    return 0;
+}
+
+
+
+output:
+Enter two numbers: 10
+2
+Addition = 12
+Subtraction = 8
+Multiplication = 20
+Division = 5.00
+
+
+=== Code Execution Successful ===

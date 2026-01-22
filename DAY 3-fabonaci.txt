@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    int n,a=0,b=1,c,i;
+    printf("Enter n:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("In %d position %d\n",i,a);
+        c=a+b;
+        a=b;
+        b=c;
+    }
+    return 0;
+}
+
+output:
+Enter n:15
+In 0 position 0
+In 1 position 1
+In 2 position 1
+In 3 position 2
+In 4 position 3
+In 5 position 5
+In 6 position 8
+In 7 position 13
+In 8 position 21
+In 9 position 34
+In 10 position 55
+In 11 position 89
+In 12 position 144
+In 13 position 233
+In 14 position 377
+
+
+=== Code Execution Successful ===

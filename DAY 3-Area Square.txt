@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float area;
+    printf("Enter the area:");
+    scanf("%f",&area);
+    float b=sqrt(area);
+    printf("The length of %.2f is %.2f",area,b);
+    return 0;
+}
+
+output:
+Enter the area:100
+The length of 100.00 is 10.00
+
+=== Code Execution Successful ===
