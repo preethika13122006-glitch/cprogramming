@@ -1,0 +1,53 @@
+#include<stdio.h>
+int main()
+{
+   int mypin=1234,pin,balance=10000,wd,rb,attempts=3;
+   while(attempts >0)
+   {
+        printf("Enter the pin:");
+        scanf("%d",&pin);
+        if(mypin==pin)
+        {
+            printf("PIN is correct\n");
+            printf("Enter the withdrawal amount:");
+            scanf("%d",&wd);
+            if(wd<=balance)
+            {
+                printf("Transaction is successful\n");
+                rb=balance-wd;
+                printf("Remaining balance is %d\n",rb);
+            }
+            else
+            {
+                printf("insufficent balance\n");
+            }
+        }
+        else
+        {
+            printf("Incorrect PIN\n");
+            attempts--;
+        }
+   }
+   if(attempts == 0)
+{
+printf("YOUR CARD IS BLOCKED");
+}
+    return 0;
+}
+output 1:
+Enter the pin:1234
+PIN is correct
+Enter the withdrawal amount:1000
+Transaction is successful
+Remaining balance is 9000
+
+output 2:
+Enter the pin:1245
+Incorrect PIN
+Enter the pin:1245
+Incorrect PIN
+Enter the pin:1245
+Incorrect PIN
+YOUR CARD IS BLOCKED
+
+=== Code Execution Successful ===
