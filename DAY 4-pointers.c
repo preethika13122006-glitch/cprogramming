@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main()
+{
+    int num=10;
+    int *point=&num;
+    printf("%d\n",num);
+    printf("%p\n",&num);
+    printf("%p\n",point);
+    printf("%d",*point);
+    return 0;
+}
+
+output:
+10
+0x7fff331a8fd4
+0x7fff331a8fd4
+10
+
+=== Code Execution Successful ===
+
+
+
+
+#include<stdio.h>
+int main()
+{
+    int num=10;
+    printf("%d\n",num);
+    printf("%p",num);
+    return 0;
+}
+
+OUTPUT:
+10
+0xa
+
+=== Code Execution Successful ===
