@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+int main()
+{
+    int T=50,E=60,M=70,S=80,SS=90;
+    int avg=(T+E+M+S+SS)/5;
+    printf("Total:%d",avg);
+    return 0;
+}

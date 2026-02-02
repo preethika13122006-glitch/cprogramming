@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float amount,rp,fa;
+    int years;
+    printf("Enter the amount:");
+    scanf("%f",&amount);
+    printf("Enter the rate power:");
+    scanf("%f",&rp);
+    printf("Enter the year:");
+    scanf("%d",&years);
+    fa=amount*pow((1+rp/100),years);
+    printf("the amount after %d years with %.2f percentage interest is %f",years,rp,fa);
+    return 0;
+}
+
+output:
+Enter the amount:10000
+Enter the rate power:5
+Enter the year:
+5
+the amount after 5 years with 5.00 percentage interest is 12762.812500
+
+=== Code Execution Successful ===

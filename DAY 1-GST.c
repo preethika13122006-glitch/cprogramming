@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    float units=5,cost=10;
+    float gst=0.18;
+    float tolcost=units*cost;
+    printf("Total cost is %.2f\n",tolcost);
+    float gstc=tolcost*gst;
+    printf("The GST amount is %.2f\n",gstc);
+    float costaftergst=tolcost+gstc;
+    printf("The cost after gst amount is:%.2f\n",costaftergst);
+    return 0;
+}
+
+output:
+Total cost is 50.00
+The GST amount is 9.00
+The cost after gst amount is:59.00
+
+
+=== Code Execution Successful ===

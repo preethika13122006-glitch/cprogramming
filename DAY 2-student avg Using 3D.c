@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+int main()
+{
+    int marks[3][2][3];
+    int sem, stu, sub;
+    float avg, sum;
+
+    // Input marks
+    for (sem = 0; sem < 3; sem++)
+    {
+        printf("\nSemester %d\n", sem + 1);
+        for (stu = 0; stu < 2; stu++)
+        {
+            printf(" Student %d\n", stu + 1);
+            for (sub = 0; sub < 3; sub++)
+            {
+                printf("  Enter Subject %d marks: ", sub + 1);
+                scanf("%d", &marks[sem][stu][sub]);
+            }
+        }
+    }
+
+
+    printf("\n--- Average Marks ---\n");
+    for (sem = 0; sem < 3; sem++)
+    {
+        printf("\nSemester %d\n", sem + 1);
+        for (stu = 0; stu < 2; stu++)
+        {
+            sum = 0;
+            for (sub = 0; sub < 3; sub++)
+            {
+                sum += marks[sem][stu][sub];
+            }
+            avg = sum / 3;
+            printf(" Student %d Average = %.2f\n", stu + 1, avg);
+        }
+    }
+
+    return 0;
+}
+
+
+output:
+
+Semester 1
+ Student 1
+  Enter Subject 1 marks: 23
+  Enter Subject 2 marks: 34
+  Enter Subject 3 marks: 45
+ Student 2
+  Enter Subject 1 marks: 56
+  Enter Subject 2 marks: 7
+  Enter Subject 3 marks: 8
+
+Semester 2
+ Student 1
+  Enter Subject 1 marks: 23
+  Enter Subject 2 marks: 34
+  Enter Subject 3 marks: 45
+ Student 2
+  Enter Subject 1 marks: 56
+  Enter Subject 2 marks: 67
+  Enter Subject 3 marks: 78
+
+Semester 3
+ Student 1
+  Enter Subject 1 marks: 2
+  Enter Subject 2 marks: 3
+  Enter Subject 3 marks: 99
+ Student 2
+  Enter Subject 1 marks: 99
+  Enter Subject 2 marks: 89
+  Enter Subject 3 marks: 79
+
+--- Average Marks ---
+
+Semester 1
+ Student 1 Average = 34.00
+ Student 2 Average = 23.67
+
+Semester 2
+ Student 1 Average = 34.00
+ Student 2 Average = 67.00
+
+Semester 3
+ Student 1 Average = 34.67
+ Student 2 Average = 89.00
+
+
+=== Code Execution Successful ===
