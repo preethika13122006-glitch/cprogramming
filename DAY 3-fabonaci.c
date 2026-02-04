@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter n:15
 In 0 position 0
 In 1 position 1
@@ -30,7 +30,7 @@ In 10 position 55
 In 11 position 89
 In 12 position 144
 In 13 position 233
-In 14 position 377
+In 14 position 377*/
 
 
 === Code Execution Successful ===

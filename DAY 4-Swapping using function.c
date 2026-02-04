@@ -20,7 +20,7 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter x:23
 Enter y:34
 before swap x is 23 and y is 34
@@ -28,4 +28,4 @@ After swap x is 34 and y is 23
 x=34
 y=23
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

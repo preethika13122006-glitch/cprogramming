@@ -34,7 +34,7 @@ printf("YOUR CARD IS BLOCKED");
 }
     return 0;
 }
-output 1:
+/*output 1:
 Enter the pin:1234
 PIN is correct
 Enter the withdrawal amount:1000
@@ -50,4 +50,4 @@ Enter the pin:1245
 Incorrect PIN
 YOUR CARD IS BLOCKED
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

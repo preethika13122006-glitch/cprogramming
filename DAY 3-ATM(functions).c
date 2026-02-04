@@ -65,7 +65,7 @@ int main()
 }
 
 
-output 1:
+/*output 1:
 Enter the PIN: 1234
 PIN is correct
 Enter the withdrawal amount: 3000
@@ -85,4 +85,4 @@ Incorrect PIN
 YOUR CARD IS BLOCKED
 
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

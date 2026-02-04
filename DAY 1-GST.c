@@ -12,10 +12,10 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Total cost is 50.00
 The GST amount is 9.00
 The cost after gst amount is:59.00
 
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

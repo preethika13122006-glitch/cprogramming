@@ -10,8 +10,8 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter the area:100
 The length of 100.00 is 10.00
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

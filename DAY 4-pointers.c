@@ -10,11 +10,11 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 10
 0x7fff331a8fd4
 0x7fff331a8fd4
-10
+10*/
 
 === Code Execution Successful ===
 
@@ -30,8 +30,8 @@ int main()
     return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 10
 0xa
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

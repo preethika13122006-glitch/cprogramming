@@ -34,7 +34,7 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter the number of element:3
 Memory allocated and the allocated memory is 3 
 Enter 3 number by adding a gap for each numbers 
@@ -44,7 +44,7 @@ Enter 3 number by adding a gap for each numbers
 The sum of all element is: 6 
 Memory deleted successfully
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/
 
                       REALLOC
 
@@ -95,7 +95,7 @@ int main()
 }
 
 
-output:
+/*output:
 Enter the number of element:2
 Memory allocated and memory is 2
 Enter 2 of numbers by adding:10
@@ -107,4 +107,4 @@ Enter the new adding elements:30
 The sum is 60
 memory is deleted
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

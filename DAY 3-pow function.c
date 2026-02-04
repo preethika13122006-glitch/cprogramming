@@ -15,11 +15,11 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter the amount:10000
 Enter the rate power:5
 Enter the year:
 5
 the amount after 5 years with 5.00 percentage interest is 12762.812500
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

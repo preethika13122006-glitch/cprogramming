@@ -14,11 +14,11 @@ int main()
 }
 
 
-output:
+/*output:
 Addition:12.00
 Subraction:-8.00
 Multiplication:20.00
-Division:0.20
+Division:0.20*/
 
 
 
@@ -65,7 +65,7 @@ int main()
 
 
 
-output:
+/*output:
 Enter two numbers: 10
 2
 Addition = 12
@@ -74,4 +74,4 @@ Multiplication = 20
 Division = 5.00
 
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

@@ -34,7 +34,7 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 	---Language---
 1.TAMIL
 2.ENGLISH
@@ -44,4 +44,4 @@ Enter the choice:2
 You have choosen ENGLISH language
 
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/

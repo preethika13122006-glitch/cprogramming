@@ -42,7 +42,7 @@ int main()
 }
 
 
-output:
+/*output:
 
 Semester 1
  Student 1
@@ -89,4 +89,4 @@ Semester 3
  Student 2 Average = 89.00
 
 
-=== Code Execution Successful ===
+=== Code Execution Successful ===*/
